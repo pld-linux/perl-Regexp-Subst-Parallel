@@ -8,12 +8,12 @@
 Summary:	Regexp::Subst::Parallel - multiple substitutions on a string in parallel
 Summary(pl):	Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawieñ w ³añcuchu
 Name:		perl-Regexp-Subst-Parallel
-Version:	0.10
+Version:	0.11
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	de49f240bcf6b6750b7f1c9ee5e7e3f2
+# Source0-md5:	ebebdad0aea5835daeb8e3cb7add383e
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{perl_vendorlib}/Regexp/Subst
-%{perl_vendorlib}/Regexp/Subst/Parallel.pm
+%dir %{perl_vendorlib}/%{pdir}/Subst
+%{perl_vendorlib}/%{pdir}/Subst/Parallel.pm
 %{_mandir}/man3/*
