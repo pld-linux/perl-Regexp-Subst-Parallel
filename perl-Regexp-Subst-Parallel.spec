@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Subst-Parallel
+%define		pdir	Regexp
+%define		pnam	Subst-Parallel
 Summary:	Regexp::Subst::Parallel - multiple substitutions on a string in parallel
 Summary(pl):	Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawieñ w ³añcuchu
 Name:		perl-Regexp-Subst-Parallel
