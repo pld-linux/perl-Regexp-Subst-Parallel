@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Subst-Parallel
 Summary:	Regexp::Subst::Parallel - multiple substitutions on a string in parallel
-Summary(pl):	Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawieÒ w ≥aÒcuchu
+Summary(pl.UTF-8):   Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawie≈Ñ w ≈Ça≈Ñcuchu
 Name:		perl-Regexp-Subst-Parallel
 Version:	0.11
 Release:	1
@@ -26,10 +26,10 @@ simultaneous substitutions safely. Using the sole exported subst
 function has a rather different effect from doing each substitution
 sequentially.
 
-%description -l pl
-Regexp::Subst::Parallel to modu≥ pozwalaj±cy na bezpieczne wykonywanie
-wielu podstawieÒ jednocze∂nie. Uøycie zwyk≥ej funkcji subst daje
-raczej inny efekt niø wykonywanie podstawieÒ sekwencyjnie.
+%description -l pl.UTF-8
+Regexp::Subst::Parallel to modu≈Ç pozwalajƒÖcy na bezpieczne wykonywanie
+wielu podstawie≈Ñ jednocze≈õnie. U≈ºycie zwyk≈Çej funkcji subst daje
+raczej inny efekt ni≈º wykonywanie podstawie≈Ñ sekwencyjnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
