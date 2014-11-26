@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Subst-Parallel
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Subst::Parallel - multiple substitutions on a string in parallel
 Summary(pl.UTF-8):	Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawień w łańcuchu
 Name:		perl-Regexp-Subst-Parallel
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ebebdad0aea5835daeb8e3cb7add383e
+URL:		http://search.cpan.org/dist/Regexp-Subst-Parallel/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
