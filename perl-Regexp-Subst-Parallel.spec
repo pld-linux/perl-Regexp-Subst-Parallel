@@ -8,7 +8,7 @@ Summary:	Regexp::Subst::Parallel - multiple substitutions on a string in paralle
 Summary(pl.UTF-8):	Regexp::Subst::Parallel - jednoczesne wykonywanie wielu podstawień w łańcuchu
 Name:		perl-Regexp-Subst-Parallel
 Version:	0.11
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
